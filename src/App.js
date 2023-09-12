@@ -98,9 +98,9 @@ function App() {
           )}
           <Container>
         <Routes>
-          <Route path="/add-message" element={<CreateMessageScreen />} />
+          {/* <Route path="/add-message" element={<CreateMessageScreen />} />
           <Route path="/messages/:id" element={<SingleMessage />} />
-          <Route path="/messages" element={<MessagesBoxScreen />} />
+          <Route path="/messages" element={<MessagesBoxScreen />} /> */}
           <Route path="/signup" element={<SignupScreen />} />
           <Route path="/signin" element={<SigninScreen />} />
           {/* <Route path="/" element={<HomeScreen/>}/> */}
