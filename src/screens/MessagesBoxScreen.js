@@ -137,6 +137,7 @@ const MessagesBoxScreen = ({ messageType }) => {
         });
         dispatch({ type: "FETCH_SUCCESS", payload: result.data });
       } catch (err) {
+        console.log(getError(err));
         toast.error(getError(err));
         dispatch({ type: "FETCH_FAIL" });
       }

@@ -34,7 +34,7 @@ const SigninScreen = () => {
   
   useEffect(() => {
     if (userInfo) {
-      navigate('/messages');
+      navigate('/');
     }
   }, [navigate, userInfo]);
 
